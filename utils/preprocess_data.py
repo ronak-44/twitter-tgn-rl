@@ -78,6 +78,7 @@ def run(data_name, bipartite=True):
   np.save(OUT_NODE_FEAT, rand_feat)
 
 parser = argparse.ArgumentParser('Interface for TGN data preprocessing')
+
 parser.add_argument('--data', type=str, help='Dataset name (eg. wikipedia or reddit)',
                     default='wikipedia')
 parser.add_argument('--bipartite', action='store_true', help='Whether the graph is bipartite')

@@ -87,7 +87,6 @@ class RandEdgeSampler(object):
   def reset_random_state(self):
     self.random_state = np.random.RandomState(self.seed)
 
-
 def get_neighbor_finder(data, uniform, max_node_idx=None):
   max_node_idx = max(data.sources.max(), data.destinations.max()) if max_node_idx is None else max_node_idx
   adj_list = [[] for _ in range(max_node_idx + 1)]
