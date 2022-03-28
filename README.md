@@ -24,6 +24,7 @@ We furthermore show that several previous models for learning on dynamic graphs 
 ### Requirements
 
 Dependencies (with python >= 3.7):
+PLEASE TAKE NOTE OF PYTHON VERSION. VV IMP. Colab uses 3.6 default, won't work
 
 ```{bash}
 pandas==1.1.0
